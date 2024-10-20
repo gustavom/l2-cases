@@ -59,6 +59,12 @@ password: 9pK6NDxBvr
 user: marketing
 password: 123456
 ```
+#### ATENÇÃO: Nenhum user funcionou
+Caso nenhum acesso acima funcione, ainda podemos gerar um link para login no perfil de admin
+
+```
+lando drush uli -l l2-app.lndo.site
+```
 
 ## API de cases
 
