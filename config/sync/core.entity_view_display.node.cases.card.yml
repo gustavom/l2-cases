@@ -1,0 +1,32 @@
+uuid: c3998d3d-7ca6-49b8-b9fe-0510f986144a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.cases.body
+    - field.field.node.cases.field_image
+    - image.style.large
+    - node.type.cases
+  module:
+    - image
+    - user
+id: node.cases.card
+targetEntityType: node
+bundle: cases
+mode: card
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  links: true

@@ -1,0 +1,39 @@
+uuid: 4befe81d-ac18-4f59-993a-7a42f6594f90
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cases
+    - taxonomy.vocabulary.tags
+  module:
+    - file
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+id: marketing
+label: Marketing
+weight: 4
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'administer url aliases'
+  - 'create cases content'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete any cases content'
+  - 'delete cases revisions'
+  - 'delete own cases content'
+  - 'edit any cases content'
+  - 'edit own cases content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'revert cases revisions'
+  - 'view all revisions'
+  - 'view cases revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

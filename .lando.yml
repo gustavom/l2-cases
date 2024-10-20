@@ -1,0 +1,4 @@
+name: l2-app
+recipe: drupal10
+config:
+  webroot: web
